@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    'node',
+    'pallets/template',
+    'pallets/simple_price_database',
+    'pallets/band_bridge',
+    'runtime',
+]
+[profile.release]
+panic = 'unwind'
